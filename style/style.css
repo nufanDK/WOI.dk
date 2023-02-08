@@ -1,0 +1,583 @@
+BODY
+{
+	background-color: #FFFFFF;
+	margin: 0px;
+	font: normal normal 10px verdana, tahoma;
+}
+
+SPAN.leftouterborder
+{
+	background-color: #414743;
+	width: 35px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+
+SPAN.leftinnerborder
+{
+	background-color: #608B02;
+	width: 186px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 38px;
+	z-index: 100;
+}
+
+IMG.leftspace
+{
+	border: 0px;
+	position: absolute;
+	top: 0px;
+	left: 35px;
+	width: 3px;
+	height: 100%;
+	z-index: 100;
+}
+
+IMG.leftrightspace
+{
+	border: 0px;
+	position: absolute;
+	top: 0px;
+	left: 224px;
+	width: 3px;
+	height: 100%;
+	z-index: 100;
+}
+
+SPAN.topbanner
+{
+	background-color: #414743;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 39px;
+	z-index: 99;
+}
+
+SPAN.topbannerspace
+{
+	background-color: #B9BEBB;
+	position: absolute;
+	top: 39px;
+	width: 100%;
+	height: 2px;
+	z-index: 98;
+	font-size: 2px;
+}
+
+IMG.newsbox
+{
+	position: absolute;
+	right: 0px;
+	top: 41px;
+	width: 186px;
+	height: 146px;
+	z-index: 100;
+}
+
+DIV.newsboxdiv
+{
+	position: absolute;
+	right: 5px;
+	top: 68px;
+	width: 181px;
+	height: 146px;
+	z-index: 101;
+	color: #FFFFFF;
+	line-height: 160%;
+}
+
+SPAN.newsboxunderspace
+{
+	background-color: #B9BEBB;
+	position: absolute;
+	top: 187px;
+	right: 0px;
+	width: 186px;
+	height: 2px;
+	z-index: 99;
+}
+
+IMG.searchbox
+{
+	background-color: #414743;
+	position: absolute;
+	right: 0px;
+	top: 189px;
+	width: 186px;
+	height: 90px;
+	z-index: 100;
+}
+
+SPAN.searchboxunderspace
+{
+	background-color: #B9BEBB;
+	position: absolute;
+	top: 279px;
+	right: 0px;
+	width: 186px;
+	height: 2px;
+	z-index: 99;
+}
+
+SPAN.innerrightspace
+{
+	background-color: #B9BEBB;
+	position: absolute;
+	top: 41px;
+	right: 186px;
+	width: 2px;
+	height: 240px;
+	z-index: 99;
+}
+
+IMG.offerbox
+{
+	height: 376px;
+	position: absolute;
+	right: 0px;
+	top: 281px;
+	width: 188px;
+	z-index: 100;
+}
+
+TABLE.offerboxtable
+{
+	width: 160px;
+	height: 211px;
+	border: 0px;
+	position: absolute;
+	top: 443px;
+	right: 15px;
+	z-index: 101;
+	font: normal normal 10px verdana, tahoma;
+}
+
+IFRAME.offerpiciframe
+{
+	position: absolute;
+	top: 296px;
+	right: 21px;
+	z-index: 101;
+	border:1px #000000 solid;
+	width: 150px;
+	height: 108px;
+}
+
+DIV.offerboxheaderleft
+{
+	font: normal bold 10px verdana, tahoma;
+	color: #5479a3;
+	position: absolute;
+	top: 430px;
+	right: 169px;
+	z-index: 101;
+}
+
+DIV.offerboxheaderright
+{
+	font: normal bold 10px verdana, tahoma;
+	color: #5479a3;
+	position: absolute;
+	top: 430px;
+	right: 14px;
+	z-index: 101;
+}
+
+DIV.offerboxheadermain
+{
+	font: normal bold 10px verdana, tahoma;
+	color: #5479a3;
+	width: 150px;
+	position: absolute;
+	top: 430px;
+	right: 24px;
+	z-index: 101;
+}
+
+TR.offerboxprice
+{
+	font: normal bold 18px verdana, tahoma;
+	color: #5d8c02;
+}
+
+TABLE.menu
+{
+	width: 225px;
+	position: absolute;
+	top: 237px;
+	left: -1px;
+	z-index: 101;
+}
+
+DIV.logo
+{
+	position: absolute;
+	left: -1px;
+	top: 58px;
+	z-index: 101;
+}
+
+DIV.banner
+{
+	background-color: #414743;
+	position: absolute;
+	left: 227px;
+	top: 41px;
+	height: 300px;
+	z-index: 98;
+}
+
+IMG.sitemappic
+{
+	display: block;
+	position: absolute;
+	border: 0px;
+	right: 30px;
+	top: 9px;
+	width: 69px;
+	height: 23px;
+	z-index: 101;
+}
+
+IMG.homepic
+{
+	display: block;
+	position: absolute;
+	border: 0px;
+	right: 101px;
+	top: 8px;
+	width: 54px;
+	height: 24px;
+	z-index: 101;
+}
+
+IMG.loginpic
+{
+	display: block;
+	position: absolute;
+	border: 0px;
+	right: 158px;
+	top: 8px;
+	width: 54px;
+	height: 24px;
+	z-index: 101;
+}
+
+SPAN.mainframe
+{
+	position: absolute;
+	top: 270px;
+	left: 0px;
+	z-index: 97;
+	padding-left: 248px;
+	padding-right: 208px;
+}
+
+INPUT.searchform
+{
+	position: absolute;
+	top: 224px;
+	right: 42px;
+	z-index: 100;
+	width: 124px;
+	height: 22px;
+}
+
+IMG.searchbutton
+{
+	position: absolute;
+	top: 224px;
+	right: 18px;
+	z-index: 100;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+}
+
+DIV.passwindow
+{
+	background-color: #414743;
+	border: 2px #B9BEBB solid;
+	border-top: 0px;
+	position: absolute;
+	top: 39px;
+	right: 72px;
+	z-index: 101;
+	width: 140px;
+	height: 90px;
+	visibility: hidden;
+}
+
+INPUT.passform
+{
+	position: relative;
+	top: 0px;
+	left: 5px;
+	width: 124px;
+	height: 20px;
+	border: 1px #FFFFFF solid;
+}
+
+DIV.loginadvisor
+{
+	color: #ffffff;
+	position: absolute;
+	top: 14px;
+	right: 220px;
+	z-index: 101;
+	visibility: hidden;
+}
+
+UL.list
+{
+	list-style-type: disc;
+	color: #48a92d;
+}
+
+SPAN.adminwindow
+{
+	background-color: #e4e9e3;
+	border: 1px #000000 solid;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 110;
+	visibility: hidden;
+	padding: 5px;
+}
+
+SPAN.closebutton
+{
+	color: #cc0000;
+	font-size: 9px;
+	font-weight: bold;
+	cursor: pointer;
+	position:absolute;
+	right: 5px;
+}
+
+SPAN.linkbanner
+{
+	font-size: 10px;
+	color: #777777;
+	cursor: pointer;
+}
+
+INPUT.newsbox
+{
+	border: 1px #000000 solid;
+	font: normal normal 10px verdana, tahoma;
+}
+
+TEXTAREA.newsindex
+{
+	width: 200px;
+	height: 150px;
+	border: 1px #000000 solid;
+	font: normal normal 10px verdana, tahoma;
+}
+
+INPUT.button
+{
+	background-color: #d4d0c8;
+	width: 71px;
+	height: 16px;
+	border: 1px #000000 solid;
+	font: normal normal 10px verdana, tahoma;
+}
+
+P.siteheader 
+{
+	font: normal bold 18px verdana, tahoma;
+	color: #6987A3;
+	letter-spacing: 2px;
+}
+
+DIV.author 
+{
+	font: italic normal 10px verdana, tahoma;
+	color: #6daa5a;
+}
+
+DIV.newsheader 
+{
+	font: normal bold 16px verdana, tahoma;
+	color: #6987A3;
+}
+
+SPAN.templatestable
+{
+	font: normal normal 9px verdana, tahoma;
+	color: #ffffff;
+	width: 265px;
+	height: 220px;
+}
+
+DIV.templatesheader1
+{
+	width: 220px;
+	height: 18px;
+	background-color: #6c87a4;
+	border: 2px solid #cdcdcd;
+}
+
+DIV.templatesheader2
+{
+	width: 220px;
+	height: 18px;
+	background-color: #6daa5a;
+	border: 2px solid #cdcdcd;
+}
+
+DIV.templatesimagediv
+{
+	width: 220px;
+	height: 160px;
+	border-left: 2px solid #cdcdcd;
+	border-right: 2px solid #cdcdcd;
+}
+
+IMG.templatesimage
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-image: url('../pics/templates/woishoppreview.jpg');
+	cursor: pointer;
+}
+
+DIV.templatesindex
+{
+	height: 45px;
+	width: 220px;
+	border: 2px solid #cdcdcd;
+	color: #000000;
+}
+
+DIV.templateslink
+{
+	color: #999999;
+	cursor: pointer;
+}
+
+DIV.templatesbox
+{
+	position: absolute;
+	visibility: hidden;
+	
+	background-color: #e4e9e3;
+	border: 1px solid #999999;
+	width: 165px;
+	height: 200px;
+	padding: 4px;
+}
+
+SPAN.blankSpace
+{
+	width: 50px;
+}
+
+DIV.mouseoverbox
+{
+	width: 314px;
+	height: 232px; 
+	filter:alpha (opacity=25);
+	position:absolute;
+	visibility: hidden;
+	cursor: pointer;
+	-moz-opacity:0.25;
+}
+
+TD.notebookmenu
+{
+	width: 372px;
+	height: 18px;
+	border: 0px;
+	margin:0px;
+	padding:0px;
+	font: normal normal 10px verdana, tahoma;
+	color: #ffffff;	
+}
+
+DIV.notebookbox
+{
+	position: absolute;
+	visibility: hidden;
+	
+	background-color: #e4e9e3;
+	border: 1px solid #999999;
+	width: 200px;
+	height: 200px;
+	padding: 4px;	
+}
+
+SPAN.productstable
+{
+	font: normal normal 9px verdana, tahoma;
+	color: #ffffff;
+	width: 260px;
+}
+
+IMG.productsimage
+{
+	width: 200px;
+	height: 181px;
+	display: block;
+	background-image: url('../pics/templates/woishoppreview.jpg');
+	cursor: pointer;
+}
+
+DIV.productsindex
+{
+	width: 200px;
+	color: #000000;
+}
+
+DIV.productsmouseoverboxgreen
+{
+	visibility: hidden;
+	background-color: #44a91e;
+	margin: 3px;
+	width:190px; 
+	height:140px; 
+	position:absolute; 
+	z-index:20; 
+	filter:alpha (opacity:35); 
+	-moz-opacity:.35;
+	cursor:pointer;
+}
+
+DIV.productsmouseoverboxblue
+{
+	visibility: hidden;
+	background-color: #57799c;
+	margin: 3px;
+	width:190px; 
+	height:140px; 
+	position:absolute; 
+	z-index:20; 
+	filter:alpha (opacity:35); 
+	-moz-opacity:.35;
+	cursor:pointer;
+}
+
+TABLE.drivingbook 
+{
+	width: 500px;
+	border: 1px solid #000000;
+	border-right: 0px;
+	font: normal normal 9px verdana, tahoma;
+}
+
+TD.drivingtd
+{
+	background-color: #f0f0f0;
+	border-right: 1px solid #000000;
+	font: normal normal 9px verdana, tahoma;
+}
